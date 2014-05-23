@@ -38,8 +38,9 @@ $(function () {
 	];
 	
 	cl("Loading chart plugin…");
-	$.getScript("assets/highcharts/highcharts.js");
-	$.getScript("assets/highcharts/modules/exporting.js");
+	$.getScript("assets/highcharts-custom.js");
+	//$.getScript("assets/highcharts/highcharts.js");
+	//$.getScript("assets/highcharts/modules/exporting.js");
 	$.getScript("assets/theme.js");
 	
 	
