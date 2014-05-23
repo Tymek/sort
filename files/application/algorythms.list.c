@@ -1,0 +1,6 @@
+#include "../algorythms/coctail.sort.c"
+#include "../algorythms/heap.sort.c"
+#include "../algorythms/insertion.sort.c"
+#include "../algorythms/quick.sort.c"
+#include "../algorythms/selection.sort.c"
+#include "../algorythms/shell.sort.c"

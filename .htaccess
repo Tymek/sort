@@ -1,0 +1,13 @@
+
+AddDefaultCharset UTF-8
+
+AddCharset UTF-8 .c
+
+Options +Indexes
+
+#ExpiresActive On
+#ExpiresDefault A1
+#Header append Cache-Control must-revalidate
+
+#Header unset Cache-Control
+#Header append Cache-Control "no-cache, must-revalidate"
